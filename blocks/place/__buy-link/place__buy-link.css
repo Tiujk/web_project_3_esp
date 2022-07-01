@@ -1,0 +1,14 @@
+.place__buy-link {
+    margin: 0;
+    position: relative;
+    padding: 0.8125rem 1.25rem;
+    background-color: #0278FE;
+    border-radius: 4px;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22;
+    text-align: center;
+    color: #FFF;
+}

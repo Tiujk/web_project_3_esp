@@ -1,0 +1,5 @@
+.place__image-container {
+    margin: 0;
+    position: relative;
+    max-width: 100%;
+}

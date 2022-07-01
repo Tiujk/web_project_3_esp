@@ -1,0 +1,6 @@
+.place {
+    margin: 0;
+    max-width: 77%;
+    display: flex;
+    justify-content: space-between;
+}

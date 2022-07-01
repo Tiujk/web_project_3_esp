@@ -1,0 +1,6 @@
+.place_column_left {
+    margin: 0;
+    max-width: 46.748%;
+    flex-direction: column;
+    row-gap: 3rem;
+}
