@@ -1,5 +1,7 @@
 .intro__description {
     margin: 0;
+    max-width: 56.25%;
+    padding: 2rem 0 0 11.6%;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;

@@ -1,6 +1,8 @@
 .intro__title {
     margin: 0;
-    font-family: "Inter";
+    max-width: 80%;
+    padding-left: 11.6%;
+    font-family: "Inter";   
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
