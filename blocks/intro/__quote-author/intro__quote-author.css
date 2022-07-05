@@ -7,4 +7,7 @@
     line-height: 1.42;
     text-align: right;
     color: #FFF;
+    position: absolute;
+    bottom: -0.625rem;
+    right: 0;
 }

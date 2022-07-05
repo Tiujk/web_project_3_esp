@@ -2,4 +2,5 @@
     margin: 0;
     max-width: 49.187%;
     flex-direction: column;
+    justify-content: center;
 }

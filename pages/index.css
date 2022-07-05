@@ -21,6 +21,7 @@
 @import url(../blocks/place/_column/place_column_left.css);
 @import url(../blocks/place/_column/place_column_right.css);
 @import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__title/_city/place__title_city_berea.css);
 @import url(../blocks/place/__image-container/place__image-container.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__artists/place__artists.css);

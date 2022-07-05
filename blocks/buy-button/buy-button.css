@@ -1,5 +1,6 @@
 .buy-button {
     margin: 0;
+    max-width: max-content;
     padding: 0.8125rem 1.25rem;
     background-color: #0278FE;
     border-radius: 4px;
