@@ -5,3 +5,9 @@
     align-items: center;
     row-gap: 5rem;
 }
+
+@media screen and (max-width: 48rem) {
+    .places {
+        row-gap: 2.7rem;
+    }    
+}

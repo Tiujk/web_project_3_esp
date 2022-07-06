@@ -9,3 +9,9 @@
     text-align: center;
     color: #FFF;
 }
+
+@media screen and (max-width: 48rem) {
+    .lead__title {
+        max-width: 93.75%;
+    }    
+}

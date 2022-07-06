@@ -1,5 +1,6 @@
 .lead__subtitle {
-    margin: 2rem 0 4rem;
+    margin: 0;
+    padding: 2rem 0 4rem;
     max-width: 56.25%;
     font-family: 'Inter';
     font-style: normal;
@@ -8,4 +9,11 @@
     line-height: 1.2;
     text-align: center;
     color: #FFF;
+}
+
+@media screen and (max-width: 48rem) {
+    .lead__subtitle {
+        max-width: 93.75%;
+        padding: 6.2rem 0 4.32rem;
+    }    
 }

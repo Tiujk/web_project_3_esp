@@ -9,3 +9,10 @@
     line-height: 1.07;
     color: #FFF;
 }
+
+@media screen and (max-width: 48rem) {
+    .intro__title {
+        max-width: 93.75%;
+        padding-left: 0;
+    }    
+}

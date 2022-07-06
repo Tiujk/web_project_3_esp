@@ -2,3 +2,12 @@
     margin: 0;
     padding: 5.75rem 0 0;
 }
+
+@media screen and (max-width: 48rem) {
+    .intro {
+        padding: 3.4375rem 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+}

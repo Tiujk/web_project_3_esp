@@ -4,3 +4,10 @@
     padding: 2.5rem 0 0 11.6%;
     position: relative;
 }
+
+@media screen and (max-width: 48rem) {
+    .intro__quote-container {
+        max-width: 93.75%;
+        padding: 0.9375rem 0 0;
+    }    
+}

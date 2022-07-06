@@ -3,3 +3,9 @@
     max-width: 77%;
     mix-blend-mode: luminosity;
 }
+
+@media screen and (max-width: 48rem) {
+    .lead__image {
+        max-width: 100%;
+    }    
+}
