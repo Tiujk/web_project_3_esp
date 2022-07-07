@@ -16,3 +16,10 @@
         padding: 2.625rem 0 0;
     }    
 }
+
+@media screen and (max-width: 20rem) {
+    .intro__description {
+        max-width: 90%;
+        padding: 0;
+    }    
+}

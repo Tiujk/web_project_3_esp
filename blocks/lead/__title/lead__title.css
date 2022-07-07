@@ -15,3 +15,12 @@
         max-width: 93.75%;
     }    
 }
+
+@media screen and (max-width: 20rem) {
+    .lead__title {
+        max-width: 90%;
+        font-size: 40px;
+        line-height: 1.1;
+    }
+    
+}

@@ -9,3 +9,11 @@
     color: #FFF;
     z-index: 9;
 }
+
+@media screen and (max-width: 20rem) {
+    .cover__info {
+        padding: 1rem 0;
+        font-size: 14px;
+        line-height: 1.14;
+    }    
+}

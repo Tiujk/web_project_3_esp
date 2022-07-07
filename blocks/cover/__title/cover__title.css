@@ -8,3 +8,10 @@
     color: #FFFDFD;
     z-index: 9;
 }
+
+@media screen and (max-width: 20rem) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 1.09;
+    }    
+}

@@ -11,3 +11,9 @@
         row-gap: 2.7rem;
     }    
 }
+
+@media screen and (max-width: 20rem) {
+    .places {
+        row-gap: 2.25rem;
+    }    
+}

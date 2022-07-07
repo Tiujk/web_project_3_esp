@@ -17,3 +17,12 @@
         padding: 6.2rem 0 4.32rem;
     }    
 }
+
+@media screen and (max-width: 20rem) {
+    .lead__subtitle {
+        max-width: 90%;
+        padding: 3.75rem 0 2.5rem;
+        font-size: 16px;
+        line-height: 1.25;
+    }    
+}

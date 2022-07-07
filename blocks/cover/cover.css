@@ -10,3 +10,10 @@
         padding: 5.75rem 0 5.5rem;
     }    
 }
+
+@media screen and (max-width: 20rem) {
+    .cover {
+        max-width: 100%;
+        padding: 4rem 0;
+    }    
+}

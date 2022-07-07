@@ -11,3 +11,9 @@
         align-items: center;
     }    
 }
+
+@media screen and (max-width: 20rem) {
+    .intro {
+        padding: 2.75rem 0 0;
+    }    
+}

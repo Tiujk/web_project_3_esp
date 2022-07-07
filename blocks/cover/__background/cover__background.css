@@ -10,3 +10,9 @@
         min-height: 46.625rem;
     }    
 }
+
+@media screen and (max-width: 20rem) {
+    .cover__background {
+        min-height: 15.875rem;
+    }    
+}

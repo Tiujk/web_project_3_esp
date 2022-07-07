@@ -7,3 +7,9 @@
     line-height: 1.42;
     color: #FFF;
 }
+
+@media screen and (max-width: 20rem) {
+    .intro__quote {
+        line-height: 1.25;
+    }    
+}

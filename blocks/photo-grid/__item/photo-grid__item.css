@@ -8,3 +8,9 @@
         max-width: 22rem;
     }    
 }
+
+@media screen and (max-width: 20rem) {
+    .photo-grid__item {
+        max-width: 18rem;
+    }    
+}

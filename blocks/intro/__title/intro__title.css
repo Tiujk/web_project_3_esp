@@ -16,3 +16,11 @@
         padding-left: 0;
     }    
 }
+
+@media screen and (max-width: 20rem) {
+    .intro__title {
+        max-width: 90%;
+        font-size: 32px;
+        line-height: 1.09;
+    }    
+}

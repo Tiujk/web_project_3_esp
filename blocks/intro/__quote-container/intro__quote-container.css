@@ -11,3 +11,10 @@
         padding: 0.9375rem 0 0;
     }    
 }
+
+@media screen and (max-width: 20rem) {
+    .intro__quote-container {
+        max-width: 90%;
+        padding: 0.5625rem 0 0;
+    }    
+}

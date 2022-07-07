@@ -7,7 +7,14 @@
     line-height: 1.42;
     text-align: right;
     color: #FFF;
-    position: absolute;
-    bottom: -0.625rem;
-    right: 0;
+    position: relative;
+    bottom: 1.5rem;
+    left: 73%;
+}
+
+@media screen and (max-width: 20rem) {
+    .intro__quote-author {
+        bottom: 0.125rem;
+        left: 6.125rem;
+    }    
 }
