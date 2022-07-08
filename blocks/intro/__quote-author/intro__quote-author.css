@@ -12,7 +12,30 @@
     left: 73%;
 }
 
-@media screen and (max-width: 20rem) {
+/*1100*/
+@media screen and (max-width: 69rem) {
+    .intro__quote-author {
+        bottom: 0.4rem;
+        left: 69%;
+    }    
+}
+
+/*600px*/
+@media screen and (max-width: 37.5rem) {
+    .intro__quote-author {
+        left: 63%;
+    }
+}
+
+/*433px*/
+@media screen and (max-width: 37.5rem) {
+    .intro__quote-author {
+        left: 45%;
+    }
+}
+
+/*320px*/
+@media screen and (max-width: 22.38rem) {
     .intro__quote-author {
         bottom: 0.125rem;
         left: 6.125rem;

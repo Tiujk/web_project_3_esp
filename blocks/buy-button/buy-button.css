@@ -13,4 +13,9 @@
     color: #FFF;
     text-decoration: none;
     z-index: 9;
+    transition: background-color 0.3s linear;
+}
+
+.buy-button:hover {
+    background-color: #0063D2;
 }

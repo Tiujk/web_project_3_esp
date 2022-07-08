@@ -11,14 +11,16 @@
     color: #FFF;
 }
 
-@media screen and (max-width: 48rem) {
+/*768px*/
+@media screen and (max-width: 50rem) {
     .lead__subtitle {
         max-width: 93.75%;
         padding: 6.2rem 0 4.32rem;
     }    
 }
 
-@media screen and (max-width: 20rem) {
+/*320px*/
+@media screen and (min-width: 17rem) and (max-width: 34rem) {
     .lead__subtitle {
         max-width: 90%;
         padding: 3.75rem 0 2.5rem;

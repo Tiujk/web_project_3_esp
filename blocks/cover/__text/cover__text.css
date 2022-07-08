@@ -10,7 +10,8 @@
     transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 20rem) {
+/*320px*/
+@media screen and (max-width: 32.5rem) {
     .cover__text {
         min-width: 17.5rem;
     }    

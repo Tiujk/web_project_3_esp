@@ -9,3 +9,10 @@
     text-align: center;
     color: #FFF;
 }
+
+/*320px*/
+@media screen and (max-width: 30rem) {
+    .footer__copyright {
+        line-height: 1;
+    }    
+}

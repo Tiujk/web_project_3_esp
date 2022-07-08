@@ -3,15 +3,30 @@
     opacity: 0.7;
     max-width: 100%;
     min-height: 45rem;
+    transition: opacity 0.3s linear;
 }
 
-@media screen and (max-width: 48rem) {
+.cover__background:hover {
+    opacity: 0.2;
+}
+
+/*768px*/
+@media screen and (max-width: 68rem) {
     .cover__background {
         min-height: 46.625rem;
+        object-fit: cover;
     }    
 }
 
-@media screen and (max-width: 20rem) {
+/*320px*/
+@media screen and (max-width: 39rem) {
+    .cover__background {
+        min-height: 30.75rem;
+    }    
+}
+
+/*320px*/
+@media screen and (max-width: 32.5rem) {
     .cover__background {
         min-height: 15.875rem;
     }    

@@ -4,14 +4,16 @@
     position: relative;
 }
 
-@media screen and (max-width: 48rem) {
+/*768px*/
+@media screen and (max-width: 68rem) {
     .cover {
         max-width: 100%;
         padding: 5.75rem 0 5.5rem;
     }    
 }
 
-@media screen and (max-width: 20rem) {
+/*320px*/
+@media screen and (max-width: 32.5rem) {
     .cover {
         max-width: 100%;
         padding: 4rem 0;

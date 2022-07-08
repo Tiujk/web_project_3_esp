@@ -10,13 +10,15 @@
     color: #FFF;
 }
 
-@media screen and (max-width: 48rem) {
+/*768px*/
+@media screen and (max-width: 50rem) {
     .lead__title {
         max-width: 93.75%;
     }    
 }
 
-@media screen and (max-width: 20rem) {
+/*320px*/
+@media screen and (min-width: 17rem) and (max-width: 34rem) {
     .lead__title {
         max-width: 90%;
         font-size: 40px;

@@ -10,14 +10,16 @@
     color: #FFF;
 }
 
-@media screen and (max-width: 48rem) {
+/*768px*/
+@media screen and (max-width: 56.5rem) {
     .intro__description {
         max-width: 93.75%;
         padding: 2.625rem 0 0;
     }    
 }
 
-@media screen and (max-width: 20rem) {
+/*320px*/
+@media screen and (max-width: 32.5rem) {
     .intro__description {
         max-width: 90%;
         padding: 0;

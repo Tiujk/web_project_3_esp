@@ -1,0 +1,7 @@
+@media screen and (max-width: 400px) {
+    .buy-button_size_small {
+        padding: 1rem 1.27rem 0.942rem 1.33rem;
+        font-size: 14px;
+        line-height: 1.21;
+    }
+}

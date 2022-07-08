@@ -3,7 +3,8 @@
     padding: 5.75rem 0 0;
 }
 
-@media screen and (max-width: 48rem) {
+/*768px*/
+@media screen and (max-width: 56.5rem) {
     .intro {
         padding: 3.4375rem 0 0;
         display: flex;
@@ -12,7 +13,8 @@
     }    
 }
 
-@media screen and (max-width: 20rem) {
+/*320px*/
+@media screen and (max-width: 32.5rem) {
     .intro {
         padding: 2.75rem 0 0;
     }    
