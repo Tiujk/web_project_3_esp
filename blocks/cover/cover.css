@@ -2,6 +2,11 @@
     margin: 0;
     padding: 5.75rem 3rem;
     position: relative;
+    transition: opacity 0.3s linear;
+}
+
+.cover__background:hover {
+    opacity: 0.2;
 }
 
 /*768px*/
