@@ -1,0 +1,32 @@
+/*320px*/
+@media screen and (max-width: 30.63rem) {
+    .buy-button_section_places {
+        margin-left: 1rem; 
+        padding: 1rem 1.37rem 0.942rem 1.33rem;
+        font-size: 14px;
+        line-height: 1.21;
+    }
+}
+
+/*>320px<768px*/
+@media screen and (max-width: 42.9375rem) {
+    .buy-button_section_places {
+        margin-left: 1rem; 
+    }
+}
+@media screen and (min-width: 43rem) and (max-width: 47.6rem) {
+    .buy-button_section_places {
+        padding: 1rem 1.37rem 0.942rem 1.33rem;
+        font-size: 14px;
+        line-height: 1.21;
+    }
+}
+
+
+/*1280px*/
+@media screen and (min-width: 66rem) {
+    .buy-button_section_places {
+        grid-area: button;
+        align-self: baseline;
+    }
+}

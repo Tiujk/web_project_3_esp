@@ -1,5 +1,6 @@
 .place__artists {
     margin: 0;
+    padding: 1.875rem 0 0.5rem;
     font-family: "Inter";
     font-style: normal;
     font-size: 12px;
@@ -8,4 +9,11 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #AAA;
+}
+
+/*768px*/
+@media screen and (min-width: 43rem) {
+    .place__artists {
+        padding-top: 0;
+    }
 }

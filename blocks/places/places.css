@@ -2,18 +2,13 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    row-gap: 5rem;
+    row-gap: 2.25rem;
 }
 
-@media screen and (max-width: 48rem) {
+/*1280px*/
+@media screen and (min-width: 66rem) {
     .places {
-        row-gap: 2.7rem;
-    }    
-}
-
-@media screen and (max-width: 20rem) {
-    .places {
-        row-gap: 2.25rem;
-    }    
+        row-gap: 4rem;
+        align-items: center;
+    }
 }

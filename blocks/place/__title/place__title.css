@@ -1,16 +1,36 @@
 .place__title {
     margin: 0;
+    padding: 0 1rem;
     font-family: "Inter";
     font-style: normal;
     font-weight: 900;
-    font-size: 72px;
-    line-height: 1.06;
+    font-size: 32px;
+    line-height: 1.09;
     color: #FFF;
 }
 
-@media screen and (max-width: 48rem) {
+/*>320px<768px*/
+@media screen and (min-width: 30.7rem) {
     .place__title {
         font-size: 42px;
         line-height: 1.1;
-    }    
+    }
+}
+
+/*768px*/
+@media screen and (min-width: 43rem) {
+    .place__title {
+        padding: 0;
+        min-width: 47.22222%;
+        max-width: 47.22222%;
+    }
+}
+
+/*1280px*/
+@media screen and (min-width: 66rem) {
+    .place__title {
+        font-size: 72px;
+        line-height: 1.06;
+        grid-area: title;
+    }
 }

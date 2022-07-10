@@ -1,0 +1,11 @@
+.cover__info-container {
+    margin: 0;
+    padding: 2rem 0;
+}
+
+/*320px*/
+@media screen and (max-width: 32.5rem) {
+    .cover__info {
+        padding: 1rem 0;
+    }    
+}

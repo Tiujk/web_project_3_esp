@@ -1,6 +1,5 @@
 .cover__info {
     margin: 0;
-    padding: 2rem 0;
     font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
@@ -13,7 +12,6 @@
 /*320px*/
 @media screen and (max-width: 32.5rem) {
     .cover__info {
-        padding: 1rem 0;
         font-size: 14px;
         line-height: 1.14;
     }    
