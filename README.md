@@ -6,7 +6,7 @@
   
 **Introducción**    
   
-Este es un proyecto que muestra las ciudades natales de algunos de los empleados de Practicum. Lo hemos diseñado de tal modo que todos los elementos se muestren correctamente en los tamaños de pantalla más habituales. Recomendamos invertir más tiempo en completar este proyecto, ya que es más difícil que los anteriores.     
+Este es un proyecto que muestra las ciudades natales de algunos de los empleados de Practicum. Lo hemos diseñado de tal modo que todos los elementos se muestren correctamente en los tamaños de pantalla más habituales. Se busca utlizar la mayor parte de herramientas aprendidas durante todo el primer módulo, incluyendo flexbox, grid layout y los media queries, así como algunos efectos visuales.
   
 **Figma**  
   
