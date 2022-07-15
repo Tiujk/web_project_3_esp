@@ -1,4 +1,4 @@
-.intro__quote-container {
+.quote {
     margin: 0;
     max-width: 56.4%;
     padding: 2.5rem 0 0 11.6%;
@@ -7,7 +7,7 @@
 
 /*768px*/
 @media screen and (max-width: 56.5rem) {
-    .intro__quote-container {
+    .quote {
         max-width: 93.75%;
         padding: 0.9375rem 0 0;
     }    
@@ -15,7 +15,7 @@
 
 /*320px*/
 @media screen and (max-width: 32.5rem) {
-    .intro__quote-container {
+    .quote {
         max-width: 90%;
         padding: 0.5625rem 0 0;
     }    

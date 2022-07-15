@@ -1,11 +1,10 @@
-.buy-button {
+.buy-link {
     margin: 0;
     max-width: max-content;
     padding: 0.8125rem 1.25rem;
     background-color: #0278FE;
     border-radius: 4px;
-    font-family: "Inter";
-    font-style: normal;
+    font-family: "Inter", "Helvetica", "Arial", sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.22;
@@ -16,6 +15,6 @@
     transition: background-color 0.3s linear;
 }
 
-.buy-button:hover {
+.buy-link:hover {
     background-color: #0063D2;
 }

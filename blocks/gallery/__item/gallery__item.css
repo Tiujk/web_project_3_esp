@@ -1,18 +1,18 @@
-.photo-grid__item {
+.gallery__item {
     margin: 0;
     max-width: 17.75rem;
 }
 
 /*768px*/
 @media screen and (max-width: 56.5rem) {
-    .photo-grid__item {
+    .gallery__item {
         max-width: 22rem;
     }    
 }
 
 /*320px*/
 @media screen and (max-width: 27rem) {
-    .photo-grid__item {
+    .gallery__item {
         max-width: 18rem;
     }    
 }

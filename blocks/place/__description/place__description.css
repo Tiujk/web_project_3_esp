@@ -1,15 +1,26 @@
 .place__description {
     margin: 0;
-    font-family: "Inter";
-    font-style: normal;
+    font-family: "Inter", "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.63;
     color: #FFF;
+    padding: 1.5rem 1rem 0.5rem;
+}
+
+/*768px*/
+@media screen and (min-width: 43rem) {
+    .place__description {
+        padding: 0;
+        max-width: 100%;
+        grid-area: description;
+    }  
 }
 
 /*1280px*/
 @media screen and (min-width: 66rem) {
     .place__description {
         font-size: 18px;
+        max-width: 100%;
+        grid-area: description;
     }
 }

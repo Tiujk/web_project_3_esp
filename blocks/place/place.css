@@ -7,8 +7,16 @@
 /*768px*/
 @media screen and (min-width: 43rem) {
     .place {
-        padding: 0 1.5rem;
-        justify-content: space-between;
+        padding: 0;
+        max-width: 93.75%;
+        display: grid;
+        grid-template-columns: 47.222% 48.888%;
+        grid-template-areas: 
+            "title subtitle"
+            "image description"
+            "button description"
+            ". description";
+        grid-gap: 3rem 1.75rem;
     }
 }
 
@@ -19,11 +27,6 @@
         max-width: 76.875%;
         display: grid;
         grid-template-columns: 46.75% 49.187%;
-        grid-template-rows: repeat(3, auto);
-        grid-template-areas: 
-            "title subtitle"
-            "image description"
-            "button description";
-        grid-gap: 48px 40px;
+        grid-gap: 3rem 2.5rem;
     }
 }

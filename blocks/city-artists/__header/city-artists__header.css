@@ -1,8 +1,7 @@
-.place__artists {
+.city-artists__header {
     margin: 0;
     padding: 1.875rem 0 0.5rem;
-    font-family: "Inter";
-    font-style: normal;
+    font-family: "Inter", "Helvetica", "Arial", sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.25;
@@ -13,7 +12,7 @@
 
 /*768px*/
 @media screen and (min-width: 43rem) {
-    .place__artists {
+    .city-artists__header {
         padding-top: 0;
     }
 }

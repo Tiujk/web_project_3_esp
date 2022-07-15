@@ -2,8 +2,7 @@
     margin: 0;
     padding: 2rem 0 4rem;
     max-width: 56.25%;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', "Helvetica", "Arial", sans-serif;
     font-weight: 400;
     font-size: 30px;
     line-height: 1.2;

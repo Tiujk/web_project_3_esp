@@ -5,6 +5,14 @@
     row-gap: 2.25rem;
 }
 
+/*768px*/
+@media screen and (min-width: 43rem) {
+    .places {
+        row-gap: 2.5rem;
+        align-items: center;
+    }
+}
+
 /*1280px*/
 @media screen and (min-width: 66rem) {
     .places {

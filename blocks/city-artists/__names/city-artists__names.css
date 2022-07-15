@@ -1,7 +1,6 @@
-.place__artists-names {
+.city-artists__names {
     margin: 0;
-    font-family: "Inter";
-    font-style: normal;
+    font-family: "Inter", "Helvetica", "Arial", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.22;

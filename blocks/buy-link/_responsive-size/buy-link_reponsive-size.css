@@ -1,6 +1,6 @@
 /*320px*/
 @media screen and (max-width: 30.63rem) {
-    .buy-button_section_places {
+    .buy-link_responsive-size {
         margin-left: 1rem;
         padding: 1rem 1.37rem 0.942rem 1.33rem;
         font-size: 14px;
@@ -10,23 +10,25 @@
 
 /*>320px<768px*/
 @media screen and (max-width: 42.9375rem) {
-    .buy-button_section_places {
+    .buy-link_responsive-size {
         margin-left: 1rem; 
     }
 }
 @media screen and (min-width: 43rem) and (max-width: 47.6rem) {
-    .buy-button_section_places {
+    .buy-link_responsive-size {
         padding: 1rem 1.37rem 0.942rem 1.33rem;
         font-size: 14px;
         line-height: 1.21;
+        grid-area: button;
+        align-self: baseline;
     }
 }
 
-
-/*1280px*/
-@media screen and (min-width: 66rem) {
-    .buy-button_section_places {
+/*768px*/
+@media screen and (min-width: 47.625rem) {
+    .buy-link_responsive-size {
         grid-area: button;
         align-self: baseline;
+        min-width: 19.6875rem;
     }
 }

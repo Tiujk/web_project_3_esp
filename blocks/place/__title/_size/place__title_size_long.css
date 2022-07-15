@@ -1,0 +1,20 @@
+/*768px*/
+@media screen and (min-width: 43rem) {
+    .place__title_size_long {
+        min-width: 105%;
+    }
+}
+
+/*>768px<1280px*/
+@media screen and (min-width: 59rem) {
+    .place__title_size_long {
+        min-width: 128%;
+    }
+}
+
+/*1280px*/
+@media screen and (min-width: 66rem) {
+    .place__title_size_long {
+        min-width: 141%;
+    }
+}
